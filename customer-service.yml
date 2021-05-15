@@ -7,3 +7,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+order-service:
+  url: http://localhost:8002/order
+
+product-service:
+  url: http://localhost:8001/product
